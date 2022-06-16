@@ -1,10 +1,13 @@
 *{
+    width: 390px;
     margin: 0;
     padding: 0;
 }
 
 /* PANEL SUPERIOR */
 .header-panel .container-header-panel{
+    width: 390px;
+    height: 150px;
     display: flex;
     flex-wrap: nowrap;
     background-color: blue;
@@ -32,11 +35,158 @@
 /* PANEL MAPA */
 .map-panel .container-map{
     width: 390px;
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
 }
 
 /* PANEL MENU STRIP */
 .menu-panel .menu-container{
-    background-color:beige;
-    border-radius: 50px;
+    width: 390px;
+    height: 694px;
+    background-color:white;
+    border-radius: 15px;
     box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
 }
+
+/* BARRA PARA DESPLEGAR EL MENU */
+.menu-panel .menu-container .barra-desplegar{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/* OPCIONES PRINCIPALES */
+.menu-panel .menu-container .opciones-principales{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+.menu-panel .menu-container .opciones-principales .generar-qr{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    border-radius: 15px;
+    margin:0 12px 0 12px;
+}
+    .menu-panel .menu-container .opciones-principales .generar-qr .btn-qr{
+        width: 100px;
+        height: 100px;
+    }
+    .menu-panel .menu-container .opciones-principales .generar-qr .btn-qr img{
+        width: 90px;
+        height: 90px;
+    }
+
+.menu-panel .menu-container .opciones-principales .rentar-casillero{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    border-radius: 15px;
+    margin:0 12px 0 12px;
+}
+    .menu-panel .menu-container .opciones-principales .rentar-casillero .btn-rentar{
+        width: 100px;
+        height: 100px;
+    }
+    .menu-panel .menu-container .opciones-principales .rentar-casillero .btn-rentar img{
+        width: 100px;
+        height: 100px;
+    }
+
+.menu-panel .menu-container .opciones-principales .ordenes-activas{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    border-radius: 15px;
+    margin:0 12px 0 12px;
+}
+    .menu-panel .menu-container .opciones-principales .ordenes-activas .btn-ordenes-activas{
+        width: 100px;
+        height: 100px;
+    }
+    .menu-panel .menu-container .opciones-principales .ordenes-activas .btn-ordenes-activas img{
+        width: 100px;
+        height: 100px;
+    }
+
+/* PANEL SALDO */
+.menu-panel .menu-container .saldo{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+    .menu-panel .menu-container .saldo .container-saldo{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 250px;
+        border-style: solid;
+        border-radius: 30px;
+    }
+
+/* MAS OPCIONES */
+.menu-panel .menu-container .mas-opciones{
+    height: 220px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    background-color: blue;
+}
+
+.menu-panel .menu-container .mas-opciones .generar-qr{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin:0 12px 0 12px;
+}
+    .menu-panel .menu-container .mas-opciones .generar-qr .btn-qr{
+        width: 100px;
+        height: 100px;
+    }
+    .menu-panel .menu-container .mas-opciones .generar-qr .btn-qr img{
+        width: 90px;
+        height: 90px;
+    }
+    
+.menu-panel .menu-container .mas-opciones .rentar-casillero{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin:0 12px 0 12px;
+}
+    .menu-panel .menu-container .mas-opciones .rentar-casillero .btn-rentar{
+        width: 100px;
+        height: 100px;
+    }
+    .menu-panel .menu-container .mas-opciones .rentar-casillero .btn-rentar img{
+        width: 100px;
+        height: 100px;
+    }
+    
+.menu-panel .menu-container .mas-opciones .ordenes-activas{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin:0 12px 0 12px;
+}
+    .menu-panel .menu-container .mas-opciones .ordenes-activas .btn-ordenes-activas{
+        width: 100px;
+        height: 100px;
+    }
+    .menu-panel .menu-container .mas-opciones .ordenes-activas .btn-ordenes-activas img{
+        width: 100px;
+        height: 100px;
+    }
