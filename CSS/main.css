@@ -28,3 +28,15 @@
     }
 
     /* NOTIFICACIONES */
+
+/* PANEL MAPA */
+.map-panel .container-map{
+    width: 390px;
+}
+
+/* PANEL MENU STRIP */
+.menu-panel .menu-container{
+    background-color:beige;
+    border-radius: 50px;
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
