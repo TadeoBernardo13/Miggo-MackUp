@@ -2,13 +2,22 @@
     width: 390px;
     margin: 0;
     padding: 0;
+    /* overflow-y: hidden; */
 }
+
+/* body{
+    display: flex;
+    overflow: hidden;
+    max-height: 844px;
+} */
 
 /* PANEL SUPERIOR */
 .header-panel .container-header-panel{
     width: 390px;
     height: 150px;
     display: flex;
+    justify-content:center;
+    align-items: center;
     flex-wrap: nowrap;
     background-color: blue;
 }
@@ -35,30 +44,53 @@
 /* PANEL MAPA */
 .map-panel .container-map{
     width: 390px;
+    display: flex;
+    position: relative;
     box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
 }
 
 /* PANEL MENU STRIP */
+.menu-panel{
+    position: absolute;
+    z-index: 100000;
+}
+
 .menu-panel .menu-container{
-    width: 390px;
-    height: 694px;
     background-color:white;
     border-radius: 15px;
+    position: relative;
+    height: 100px;
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
     box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+
+.menu-panel .menu-container.active{
+    height: 694px;
 }
 
 /* BARRA PARA DESPLEGAR EL MENU */
 .menu-panel .menu-container .barra-desplegar{
     color: white;
+    width: 50%;
     background-color: black;
+    cursor: pointer;
     text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
 /* OPCIONES PRINCIPALES */
 .menu-panel .menu-container .opciones-principales{
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     margin-top: 100px;
 }
 
@@ -116,11 +148,13 @@
 /* PANEL SALDO */
 .menu-panel .menu-container .saldo{
     margin-top: 100px;
+    display: flex;
+    justify-content:center;
     align-items: center;
-    justify-content: center;
     text-align: center;
 }
     .menu-panel .menu-container .saldo .container-saldo{
+        display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
